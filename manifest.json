@@ -1,0 +1,16 @@
+{
+  "name": "Awesome Github Profile",
+  "version": "1.0.0",
+  "description": "Awesome description",
+  "content_scripts": [{
+    "matches": ["https://*.github.com/*", "http://*.github.com/*"],
+      "js": ["jquery.min.js", "github.js"]
+    }
+  ],
+  "icons": {
+     "16": "assets/icons/icon16.png",
+     "48": "assets/icons/icon48.png",
+     "128": "assets/icons/icon128.png"
+   },
+  "manifest_version": 2
+}
